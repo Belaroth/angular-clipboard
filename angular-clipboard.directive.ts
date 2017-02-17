@@ -32,7 +32,3 @@ export class AngularClipboardDirective {
         }
     }
 }
-//@Component({
-//    selector: 'note-summary',
-//    templateUrl: './note-summary.component.html'
-//})
