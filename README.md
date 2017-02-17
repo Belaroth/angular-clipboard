@@ -17,8 +17,15 @@ itself.
 Require angular-clipboard as a dependency for your app:
 
 ```javascript
-import { AngularClipboardProvider } from './angular-clipboard.provider';
+import { AngularClipboardDirective } from './angular-clipboard.directive';
+@NgModule({
+    declarations: [AngularClipboardDirective]
+})
+```
 
+Create properties in component for wiring up to the attribute
+
+```javascript
 export class MyComponent {
         supported = false;
 
